@@ -1,0 +1,16 @@
+{
+  "name": "tut-strapi-gatsby",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:gordon2012/tut-strapi-gatsby.git",
+  "author": "Gordon Doskas <gordon@doskas.me> (gordondoskas.com)",
+  "license": "MIT",
+  "scripts": {
+    "server": "yarn --cwd backend develop",
+    "client": "yarn --cwd frontend develop",
+    "develop": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
